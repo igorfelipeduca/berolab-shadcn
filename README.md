@@ -6,6 +6,10 @@ Nesse repositório será criado um tema de Shadcn reutilizável com os component
 
 A motivação por traz desse projeto é documentar os componentes e criar um design system mais reutilizável e modular, tendo como o principal propósito desse projeto _remover complexidade desnecessária_ do design system atual.
 
+## Regras para contribuição
+
+Sempre crie uma nova branch a partir de `main` e abra um PR apontando para main. Devemos ler o código e testar a branch criada antes de fazer o merge com main, para garantir que a estrutura segue o padrão e qualidade esperados.
+
 ## Como criar um componente
 
 Para criar componentes, a estrutura base de um arquivo deve ser:
@@ -57,7 +61,7 @@ const buttonVariants = cva(
 );
 ```
 
-### Como transformar Shadcn em BeroCN
+## Como transformar Shadcn em BeroCN
 
 Para conseguir instalar um componente do Shadcn nessa codebase e transformá-lo em um componente do nosso próprio design system, devem ser seguidos os seguintes passos: <br />
 
